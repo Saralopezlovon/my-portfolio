@@ -57,7 +57,6 @@ header{
 }
 
 nav{
-    /* border: 1px solid green;  */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -68,7 +67,6 @@ nav{
 }
 
 nav ul{
-    /* border: 1px solid red; */
     width: 660px;
     display: flex; 
     justify-content: space-around;
@@ -77,7 +75,6 @@ nav ul{
 }
 
 ul li{
-    /* border: 1px solid brown; */
     list-style: none; 
     font-size: 13px;
     text-decoration: none;
@@ -109,7 +106,6 @@ li a:hover{
 /* TÍTULO */
 
 .title-section{
-     /* border: 1px solid brown; */
     font-family: 'Roboto Mono', monospace;   
     text-align: center;
     padding-top: 115px;
@@ -118,7 +114,6 @@ li a:hover{
 }
 
 .title-section2{
-    /* border: 1px solid brown; */
     font-family: 'Roboto Mono', monospace;   
     text-align: center;
     padding-top: 30px;
@@ -135,7 +130,6 @@ li a:hover{
 .section-container {
     width: 1200px;
     margin: 10px;
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     font-family: system-ui;
@@ -146,7 +140,6 @@ li a:hover{
 }
 
 .first-row{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -155,8 +148,6 @@ li a:hover{
 
 .second-row{
     margin-top: 30px;
-    border: 1px solid green;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -219,40 +210,33 @@ span {
         
     
 
-.item-1{
-    border: 1px solid pink;    
+.item-1{    
     width: 650px;
 }
 
 .item-2{
-    border: 1px solid yellow;
     width: 300px;
 }
 
 
 .item-3{
-    border: 1px solid purple;
     width: 350px;
 }
 
 
 .item-4{
-    border: 1px solid black;
     width: 350px;
 }
 
 .item-5{
-    border: 1px solid green;
     width: 350px;
 }
 
 .item-6{
-    border: 1px solid sienna;
     width: 350px;
 }
 
 .item-7{
-    border: 1px solid pink;
     width: 350px;
     
 }
@@ -263,7 +247,6 @@ span {
 footer{
     margin:0px;
     padding-top: 20px;
-    border: 1px solid brown;
     height: 90px;
     background-color: white;
     display:flex;
@@ -276,7 +259,6 @@ footer{
 }
 
 footer p{
-    border: 1px solid green;
     font-size: 10px;
     text-align: center;
 }
