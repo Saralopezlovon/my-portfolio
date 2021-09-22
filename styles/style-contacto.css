@@ -81,8 +81,11 @@ ul li{
 li a {
     text-decoration: none;
     color:black;
-    }
+}
 
+li a:hover{
+    font-weight: bold;
+}    
 
 /* CONTENIDO */
 

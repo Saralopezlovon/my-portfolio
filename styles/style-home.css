@@ -50,29 +50,39 @@ text-decoration: none;
 color: white;
 }
 
+li a:hover{
+    font-weight: bold;
+}
+
 /* MAIN HOME */
 
 main { 
 	font-family: monospace; 
+    font-weight: 300px;
     border: 1px solid pink;
     text-align: left;
 }
 
 .contenedor {
 	margin: 0px;
-    width: 800px;
-	/* display: table; */
+    padding-left: 70px;
+    padding-top: 10px;
+    width: 700px;
     border: 1px solid yellow;
-      
-    
+
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+          
 }
 
 h1 { 
-	position: relative; 
-    text-align: left;
-	/* float: left; */
-	/* background: tomato; */
+    border: 1px solid purple;
+    margin-bottom: 0px;  
+    margin-top:10px;
+    
+	
 	color: #fff;
-	font-size: 50px;
-    /* left: 2px; */
+	font-size: 70px;
+    
 }
