@@ -1,0 +1,158 @@
+/* MARCO FIJO */
+
+.div-top{
+    background: #000;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+.div-right{
+    background: #000;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+}
+
+.div-bottom{
+    background: #000;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+
+}
+
+.div-left{
+    background: #000;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+}
+
+
+/* HEADER BIOGRAFÍA */
+
+header{
+    position: fixed;
+    top:0px;
+    right: 0;
+    left: 0;  
+    background-color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+    /* border: 1px solid green;  */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90px; 
+    padding-left: 60px;
+       
+
+}
+
+nav ul{
+    /* border: 1px solid red; */
+    width: 660px;
+    display: flex; 
+    justify-content: space-around;
+    padding: 0px;
+    
+}
+
+ul li{
+    /* border: 1px solid brown; */
+    list-style: none; 
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color:black;
+    }
+
+/* MAIN */
+
+.body-container{
+    left: 0;
+    right: 0;
+}
+
+
+/* TÍTULO */
+
+.title-section{
+    font-family: 'Roboto Mono', monospace;
+    /* border: 1px solid brown; */
+    text-align: center;
+    padding-top: 115px;
+    margin:0px;
+    font-size: 30px;
+}
+
+/* CONTENIDO */
+
+.section-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.text-container{
+    border: 1px solid brown;
+    width: 450px;
+    padding-right: 80px;
+}
+
+
+.image-biography{
+    border: 1px solid brown;
+    height: 500px;
+}
+
+div, h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 23px;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+/* FOOTER */
+
+footer{
+    margin:0px;
+    border: 1px solid brown;
+    height: 90px;
+    background-color: white;   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300px; 
+    color:black;
+
+}
+
+footer p{
+    border: 1px solid green;
+    font-size: 10px;
+}
